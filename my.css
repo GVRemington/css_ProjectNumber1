@@ -1,0 +1,56 @@
+*{font-size: 1.5 rem;}
+.input-wrapper
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:30%;
+        background: rgb(162, 139, 162);
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        color:black;
+        box-shadow: 0.25rem 0.25rem 0rem rgb(229, 225, 232);
+        
+    }
+
+input
+    {
+        margin: 0 0.5rem 0 0.5rem;
+        width:100%;
+        border: none;
+        background:rgb(162, 139, 162);
+        
+        
+
+    }
+
+::placeholder 
+    {
+        font-style: italic;
+        color:whitesmoke;
+    }
+.box
+    {
+        display: flex;
+        justify-content: center;
+       
+        margin: .50rem;
+        border: .80rem black solid;
+       
+              
+    }
+#MyTitle
+    {
+       font-style: oblique;
+       color: rgb(104, 91, 73);
+    }
+body
+    {
+        background-size: cover;
+        background-image: url(remiPuppyPic.jpg);
+        background-repeat: no-repeat;
+        
+    }
+
+
+
